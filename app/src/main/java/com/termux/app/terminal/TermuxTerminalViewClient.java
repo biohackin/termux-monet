@@ -264,7 +264,7 @@ public class TermuxTerminalViewClient extends TermuxTerminalViewClientBase {
                 changeFontSize(true);
             } else if (unicodeChar == '-') {
                 changeFontSize(false);
-            } else if (unicodeChar >= '1' && unicodeChar <= '13') {
+            } else if (unicodeChar >= '1' && unicodeChar <= '9') {
                 int index = unicodeChar - '1';
                 mTermuxTerminalSessionActivityClient.switchToSession(index);
             }
