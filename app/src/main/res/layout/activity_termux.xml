@@ -43,7 +43,7 @@
             <RelativeLayout
                 android:layout_width="240dp"
                 android:layout_height="match_parent"
-                android:layout_gravity="start"
+                android:layout_gravity="end"
                 android:orientation="vertical">
                 <com.github.mmin18.widget.RealtimeBlurView
                     android:layout_width="match_parent"
@@ -59,7 +59,7 @@
                     android:id="@+id/left_drawer"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="start"
+                    android:layout_gravity="end"
                     android:choiceMode="singleChoice"
                     android:divider="@android:color/transparent"
                     android:dividerHeight="0dp"
