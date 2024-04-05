@@ -557,6 +557,7 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
         settingsButton.setOnClickListener(v -> {
             ActivityUtils.startActivity(this, new Intent(this, SettingsActivity.class));
         });
+        settingsButton.setVisibility(View.GONE);
     }
 
     private void setNewSessionButtonView() {
