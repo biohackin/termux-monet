@@ -6,11 +6,3 @@
     android:layout_height="match_parent"
     android:layout_alignParentBottom="true"
     android:orientation="horizontal" />
-
-<TextView
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:layout_gravity="center"
-	android:text="Popup Window"
-	android:textColor="#f00"
-	android:textSize="50dp"/>
