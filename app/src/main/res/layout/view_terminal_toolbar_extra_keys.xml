@@ -6,3 +6,8 @@
     android:layout_height="match_parent"
     android:layout_alignParentBottom="true"
     android:orientation="horizontal" />
+    <com.github.mmin18.widget.RealtimeBlurView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:realtimeBlurRadius="10dp"
+        app:realtimeOverlayColor="@android:color/transparent" />
