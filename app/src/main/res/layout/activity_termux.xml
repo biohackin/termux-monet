@@ -86,12 +86,12 @@
 
                         <ImageView
                             android:id="@+id/toggle_keyboard_button"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
                             android:layout_margin="16dp"
                             app:srcCompat="@drawable/baseline_keyboard_alt_24"
                             android:background="@null"
-                            app:tint="@color/deep_purple_A700"
+                            app:tint="@color/menu_accent"
                             android:contentDescription="@string/action_toggle_soft_keyboard"/>
 
                         <ImageView
@@ -101,17 +101,17 @@
                             android:layout_margin="16dp"
                             app:srcCompat="@drawable/ic_new_session"
                             android:background="@null"
-                            app:tint="@color/orange_A700"
+                            app:tint="@color/menu_accent"
                             android:contentDescription="@string/action_new_session"/>
                             
                         <ImageView
                             android:id="@+id/settings_button"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
                             android:layout_margin="16dp"
                             app:srcCompat="@drawable/ic_settings"
                             android:background="@null"
-                            app:tint="@color/deep_purple_A700"
+                            app:tint="@color/menu_accent"
                             android:contentDescription="@string/action_open_settings"/>
                         
                     </LinearLayout>
