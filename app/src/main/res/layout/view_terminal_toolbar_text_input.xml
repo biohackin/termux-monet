@@ -9,14 +9,14 @@
         android:id="@+id/terminal_toolbar_text_input_button"
         android:layout_width="50dp"
         android:layout_height="match_parent"
-        android:background="#80000000"
-        android:backgroundTint="#80000000"
         android:padding="0dp"
         android:text="\u276e"
         android:textColor="#98cbff"
         android:textSize="20sp"
         app:cornerRadius="0dp"
-        app:iconPadding="0dp" />
+        app:iconPadding="0dp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#80000000" />
 
 <com.google.android.material.textfield.TextInputEditText xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
