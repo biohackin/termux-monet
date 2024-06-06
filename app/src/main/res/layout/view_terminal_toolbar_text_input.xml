@@ -17,7 +17,10 @@
         app:iconPadding="0dp"
         android:background="@android:color/transparent" />
 
-<!--<com.google.android.material.textfield.TextInputEditText xmlns:android="http://schemas.android.com/apk/res/android"
+    <!--
+    ** Envía comando sin salto de línea (sin auto ENTER)
+    
+    <com.google.android.material.textfield.TextInputEditText xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/terminal_toolbar_text_input"
     android:layout_width="match_parent"
@@ -35,11 +38,14 @@
     android:hint="@string/extra_keys_command_hint"
     android:textColorHint="@color/hint_accent"
     tools:ignore="LabelFor" />
-    
-Widget.MaterialComponents.TextInputLayout.
-    OutlinedBox
-    FilledBox
+    -->
 
+    <!--
+    ** Envía comando con salto de línea (con auto ENTER)
+
+    ** Themes textfield: Widget.MaterialComponents.TextInputLayout.
+                         OutlinedBox  #con bug
+                         FilledBox    #sin bug
     -->
 
     <com.google.android.material.textfield.TextInputLayout
