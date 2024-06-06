@@ -9,11 +9,11 @@
         android:id="@+id/terminal_toolbar_text_input_button"
         android:layout_width="50dp"
         android:layout_height="match_parent"
-        android:backgroundTint="@color/background_accent"
+        android:backgroundTint="#80000000"
         android:padding="0dp"
         android:text="\u276e"
-        android:textColor="@color/main_accent"
-        android:textSize="24sp"
+        android:textColor="#98cbff"
+        android:textSize="20sp"
         app:cornerRadius="0dp"
         app:iconPadding="0dp" />
 
