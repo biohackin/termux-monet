@@ -50,7 +50,6 @@ Widget.MaterialComponents.TextInputLayout.
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:imeOptions="actionSend|flagNoFullscreen"
-        android:maxLines="1"
         android:inputType="text"
         android:importantForAutofill="no"
         android:backgroundTint="@color/main_accent"
@@ -61,7 +60,13 @@ Widget.MaterialComponents.TextInputLayout.
         android:hint="@string/extra_keys_command_hint"
         android:textColorHint="@color/hint_accent"
         tools:ignore="LabelFor"
-        app:endIconMode="clear_text">
+        app:boxBackgroundColor="@android:color/transparent"
+        app:endIconMode="clear_text"
+        app:endIconTint="#98cbff"
+        app:counterEnabled="true"
+        app:counterMaxLenght="100"
+        app:helperTextEnabled="true"
+        app:helperText="SimplyTheBest">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/terminal_toolbar_text_input"
             android:layout_width="match_parent"
