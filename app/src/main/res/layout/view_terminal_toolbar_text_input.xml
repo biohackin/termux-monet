@@ -5,6 +5,9 @@
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
+    <!--
+    ** Button style en input text (desactivado)
+
     <Button
         android:id="@+id/terminal_toolbar_text_input_button"
         android:layout_width="50dp"
@@ -16,6 +19,7 @@
         app:cornerRadius="0dp"
         app:iconPadding="0dp"
         android:background="@android:color/transparent" />
+    -->
 
     <!--
     ** Envía comando sin salto de línea (sin auto ENTER)
