@@ -64,11 +64,11 @@ public class TerminalToolbarViewPager {
                 layout = inflater.inflate(R.layout.view_terminal_toolbar_text_input, collection, false);
                 // •○● @SimplyTheBest: Add for back button to text input
                 // EOF
-                final Button button = layout.findViewById(R.id.terminal_toolbar_text_input_button);
+                /*final Button button = layout.findViewById(R.id.terminal_toolbar_text_input_button);
                 button.setOnClickListener(v -> {
                     ViewPager pager = mActivity.getTerminalToolbarViewPager();
                     pager.setCurrentItem(1, true);
-                });
+                });*/
                 // EOF
                 final EditText editText = layout.findViewById(R.id.terminal_toolbar_text_input);
                 if (mSavedTextInput != null) {
