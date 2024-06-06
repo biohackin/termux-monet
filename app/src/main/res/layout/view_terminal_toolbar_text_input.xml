@@ -15,8 +15,7 @@
         android:textSize="20sp"
         app:cornerRadius="0dp"
         app:iconPadding="0dp"
-        android:background="@android:color/transparent"
-        android:backgroundTint="#80000000" />
+        android:background="@android:color/transparent" />
 
 <com.google.android.material.textfield.TextInputEditText xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
