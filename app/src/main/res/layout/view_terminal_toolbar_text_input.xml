@@ -64,7 +64,7 @@ Widget.MaterialComponents.TextInputLayout.
         app:endIconMode="clear_text"
         app:endIconTint="#98cbff"
         app:counterEnabled="true"
-        app:counterMaxLenght="100"
+        app:counterMaxLength="100"
         app:helperTextEnabled="true"
         app:helperText="SimplyTheBest">
         <com.google.android.material.textfield.TextInputEditText
