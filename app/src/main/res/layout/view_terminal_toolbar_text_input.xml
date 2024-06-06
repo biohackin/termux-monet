@@ -45,7 +45,7 @@ Widget.MaterialComponents.TextInputLayout.
     <com.google.android.material.textfield.TextInputLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -60,7 +60,8 @@ Widget.MaterialComponents.TextInputLayout.
         android:hint="@string/extra_keys_command_hint"
         android:textColorHint="@color/hint_accent"
         tools:ignore="LabelFor"
-        app:boxBackgroundColor="#00000000"
+        app:boxBackgroundMode="filled"
+        app:boxBackgroundColor="@null"
         app:endIconMode="clear_text"
         app:endIconTint="#98cbff"
         app:counterEnabled="true"
@@ -69,6 +70,7 @@ Widget.MaterialComponents.TextInputLayout.
         app:helperText="JulioCj7">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/terminal_toolbar_text_input"
+            android:backgroundTint="@android:color/transparent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
