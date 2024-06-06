@@ -10,6 +10,7 @@
         android:layout_width="50dp"
         android:layout_height="match_parent"
         android:background="#80000000"
+        android:backgroundTint="#80000000"
         android:padding="0dp"
         android:text="\u276e"
         android:textColor="#98cbff"
