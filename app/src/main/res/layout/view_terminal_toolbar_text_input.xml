@@ -48,15 +48,15 @@
     ** Envía comando con salto de línea (con auto ENTER)
 
     ** Themes textfield: Widget.MaterialComponents.TextInputLayout.
-                         OutlinedBox  #con bug
-                         FilledBox    #sin bug
+                         OutlinedBox.Dense
+                         FilledBox.Dense
     android:maxLines="1"  #en TextInputLayout para hacerla de una linea
     -->
 
     <com.google.android.material.textfield.TextInputLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
@@ -82,8 +82,7 @@
         app:counterEnabled="true"
         app:counterMaxLength="100"
         app:helperTextEnabled="true"
-        app:helperText="JulioCj7"
-        app:startIconCheckable="True">
+        app:helperText="JulioCj7">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/terminal_toolbar_text_input"
             android:singleLine="true"
