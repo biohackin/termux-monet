@@ -71,17 +71,12 @@
         android:hint="@string/extra_keys_command_hint"
         android:textColorHint="@color/hint_accent"
         tools:ignore="LabelFor"
-        android:maxLines="1"
         app:startIconDrawable="@drawable/ic_console_line"
         app:startIconTint="#98cbff"
         app:startIconContentDescription="Ingresar comando"
         app:startIconMinSize="38dp"
         app:endIconMode="clear_text"
-        app:endIconTint="#98cbff"
-        app:counterEnabled="true"
-        app:counterMaxLength="666"
-        app:helperTextEnabled="true"
-        app:helperText="JulioCj7">
+        app:endIconTint="#98cbff">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/terminal_toolbar_text_input"
             android:singleLine="true"
