@@ -80,7 +80,7 @@
         app:endIconMode="clear_text"
         app:endIconTint="#98cbff"
         app:counterEnabled="true"
-        app:counterMaxLength="100"
+        app:counterMaxLength="666"
         app:helperTextEnabled="true"
         app:helperText="JulioCj7">
         <com.google.android.material.textfield.TextInputEditText
