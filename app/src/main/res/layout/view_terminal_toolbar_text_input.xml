@@ -72,13 +72,12 @@
         android:textColorHint="@color/hint_accent"
         tools:ignore="LabelFor"
         android:singleLine="true"
-        app:maxLines="1"
         app:boxBackgroundMode="filled"
         app:boxBackgroundColor="@null"
         app:startIconDrawable="@drawable/ic_console_line"
         app:startIconTint="#98cbff"
         app:startIconContentDescription="Ingresar comando"
-        app:startIconMinSize="30dp"
+        app:startIconMinSize="38dp"
         app:endIconMode="clear_text"
         app:endIconTint="#98cbff"
         app:counterEnabled="true"
@@ -87,7 +86,7 @@
         app:helperText="JulioCj7">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/terminal_toolbar_text_input"
-            android:maxLines="1"
+            android:singleLine="true"
             android:backgroundTint="@android:color/transparent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
