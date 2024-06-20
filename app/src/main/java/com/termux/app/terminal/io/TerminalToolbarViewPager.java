@@ -1,18 +1,18 @@
 package com.termux.app.terminal.io;
 
-import android.content.Intent;  //..SimplyTheBest
+//import android.content.Intent;  //..SimplyTheBest
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;  //..SimplyTheBest
+//import android.widget.Button;  //..SimplyTheBest
 import android.widget.EditText;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import com.termux.R;
 import com.termux.app.TermuxActivity;
-import com.termux.app.activities.SettingsActivity;  //..SimplyTheBest
-import com.termux.shared.activity.ActivityUtils;  //..SimplyTheBest
+//import com.termux.app.activities.SettingsActivity;  //..SimplyTheBest
+//import com.termux.shared.activity.ActivityUtils;  //..SimplyTheBest
 import com.termux.shared.termux.extrakeys.ExtraKeysView;
 import com.termux.terminal.TerminalSession;
 
@@ -55,11 +55,8 @@ public class TerminalToolbarViewPager {
                 if (mActivity.getProperties().isUsingFullScreen() && mActivity.getProperties().isUsingFullScreenWorkAround()) {
                     FullScreenWorkAround.apply(mActivity);
                 }
-                // •○● @SimplyTheBest: Add for transparent extra keyboard
-                // EOF
                 // Update toolbar background corresponding to prefs
-                mActivity.getmTermuxBackgroundManager().updateToolbarBackground();
-                // EOF
+                mActivity.getmTermuxBackgroundManager().updateToolbarBackground();  //..SimplyTheBest
             } else {
                 layout = inflater.inflate(R.layout.view_terminal_toolbar_text_input, collection, false);
                 // •○● @SimplyTheBest: Add for back button to text input
