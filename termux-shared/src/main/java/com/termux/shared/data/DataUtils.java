@@ -250,8 +250,6 @@ public class DataUtils {
     /**
      * Wrapper for {@link #getIntColorFromString(String, int, boolean)} with `setAlpha` `false`.
      */
-    // •○● @SimplyTheBest: Add for transparent extra keyboard
-    // EOF
     public static int getIntColorFromString(String value, int def) {
         if (value == null)
             return def;
@@ -261,7 +259,6 @@ public class DataUtils {
             return def;
         }
     }
-    // EOF
 
     /**
      * Get an {@code int} color from {@link String} with alpha value change. If {@code setAlpha}
