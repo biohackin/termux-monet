@@ -5,7 +5,7 @@
     <corners android:radius="10dp"/>
     <size android:width="4dp" />
 
-    <!--
+
         <gradient
         android:angle="45"
         android:centerColor="#66ff5c33"
@@ -15,6 +15,7 @@
     <padding
         android:left="0.5dp"
         android:right="0.5dp" />
+    <!--
     -->
 
 </shape>
