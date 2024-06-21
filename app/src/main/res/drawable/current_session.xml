@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-<shape xmlns:android="http://schemas.android.com/apk/res/android" 
-    android:shape="rectangle">
-    <stroke android:width="2dp" android:color="#5098cbff" /> 
-    <solid android:color="#7098cbff" /> 
-    <corners android:radius="10dp" />
-    <padding android:left="2dp" android:top="2dp" android:right="2dp" android:bottom="2dp" />
-</shape>
--->
+
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
-    android:color="#98cbff">
+    android:color="#98CBFF">
     <item android:id="@android:id/mask">
         <shape android:shape="rectangle">
             <solid android:color="#75000000" />
@@ -17,13 +9,11 @@
         </shape>
     </item>
     <item>
-        <shape xmlns:android="http://schemas.android.com/apk/res/android" 
-            android:shape="rectangle">
+        <shape android:shape="rectangle">
             <!--<stroke android:width="2dp" android:color="#5098cbff" />-->
-            <solid android:color="#7098cbff" /> 
+            <solid android:color="#7098CBFF" /> 
             <corners android:radius="10dp" />
             <!--<padding android:left="2dp" android:top="2dp" android:right="2dp" android:bottom="2dp" />-->
         </shape>
     </item>
 </ripple>
-
