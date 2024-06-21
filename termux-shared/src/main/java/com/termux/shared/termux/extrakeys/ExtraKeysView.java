@@ -729,7 +729,7 @@ public final class ExtraKeysView extends GridLayout {
         button.setWidth(width);
         button.setHeight(height);
         //button.setBackgroundColor(mButtonActiveBackgroundColor);
-        button.setBackgroundColor(0x95000000);  //..SimplyTheBest
+        button.setBackgroundColor(0x85000000);  //..SimplyTheBest
         mPopupWindow = new PopupWindow(this);
         mPopupWindow.setWidth(LayoutParams.WRAP_CONTENT);
         mPopupWindow.setHeight(LayoutParams.WRAP_CONTENT);
