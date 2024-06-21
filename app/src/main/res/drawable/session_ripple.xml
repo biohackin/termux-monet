@@ -2,9 +2,9 @@
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
     android:color="@color/highlight_accent" >
     <item>
-        <color android:color="@android:color/transparent" />
+        <!--<color android:color="@android:color/transparent" />-->
         <shape android:shape="rectangle">
-            <solid android:color="#ff0000" />
+            <solid android:color="#ffff0000" />
             <corners android:radius="10dp"/>
         </shape>
     </item>
